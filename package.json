@@ -2,7 +2,7 @@
     "name": "gitbook-plugin-submodule-summary",
     "description": "Auto copy summary from git submodule.",
     "main": "index.js",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "gitbook": ">3.0.0"
     },
