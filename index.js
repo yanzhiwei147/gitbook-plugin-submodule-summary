@@ -42,7 +42,7 @@ module.exports = {
                         newLine = newLine + line1;
                     }
                     
-                    newLine = newLine + os.EOL
+                    newLine = newLine + os.EOL;
                     finalSummaryContent = finalSummaryContent + newLine;
                 });                
             });
