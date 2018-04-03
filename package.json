@@ -1,0 +1,37 @@
+{
+    "name": "gitbook-plugin-submodule-summary",
+    "description": "Auto copy summary from git submodule.",
+    "main": "index.js",
+    "version": "0.0.1",
+    "engines": {
+        "gitbook": ">3.0.0"
+    },
+    "homepage": "https://github.com/yanzhiwei147/gitbook-plugin-submodule-summary",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yanzhiwei147/gitbook-plugin-submodule-summary"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yanzhiwei147/gitbook-plugin-submodule-summary/issues"
+    },
+    "scripts": {
+        "lint": "eslint *.js",
+        "test": "npm run lint"
+    },
+    "keywords": [
+        "gitbook",
+        "submodule",
+        "gitbook-plugin",
+        "summary"
+    ],
+    "dependencies": {
+        "read-each-line-sync": "^1.0.5"
+    },
+    "devDependencies": {
+        "eslint": "^3.14.1",
+        "eslint-config-prettier": "^2.3.0",
+        "eslint-plugin-prettier": "^2.1.2",
+        "mocha": "^2.4.5"
+    }
+}
